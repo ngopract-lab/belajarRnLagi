@@ -5,7 +5,7 @@ import NewsList from './NewsList';
 import NewsDetails from './NewsDetails';
 import NewsComments from './NewsComments';
 
-const AppNavigator = () => (
+const App = () => (
   <Navigator
     initialRoute={{ title: 'home', newsObj: {} }}
     renderScene={(route, navigator) => {
@@ -19,4 +19,4 @@ const AppNavigator = () => (
   />
 )
 
-export default AppNavigator;
+export default App;

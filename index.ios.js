@@ -3,12 +3,12 @@ import {
   AppRegistry,
 } from 'react-native';
 
-import AppNavigator from './src/AppNavigator';
+import App from './src/App';
 
 export default class belajarRnLagi extends Component {
   render() {
     return (
-      <AppNavigator />
+      <App />
     );
   }
 }
