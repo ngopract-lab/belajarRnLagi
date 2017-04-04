@@ -5,7 +5,7 @@ const NewsDetails = props => (
   <View style={styles.container}>
     <View style={styles.header}>
       <TouchableOpacity
-        onPress={() => props.navigator.push({ title: 'home' })}
+        onPress={() => props.navigator.pop()}
         style={styles.button}
       >
         <Text style={styles.buttonText}>&lt; Back</Text>
